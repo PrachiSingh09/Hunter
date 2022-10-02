@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Header styling*/
+.dep {
+    background-color: rgba(24, 9, 9, 0.781);
+    background-size: 500px;
+    color: rgb(224, 140, 179); 
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+/*Nav bar styling*/
+.logo{
+    color: rgb(236, 88, 113);
+	font-size: 24px;
+    padding: 15px;
+}
+.cls{
+    color: black;
+}
+.navbar{
+    background-color: rgb(224, 140, 179); 
+    width: 100%;
+}
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar li{
+    float: left; 
+    list-style: none; 
+    font-size: 20px;
+    margin: 13px 20px; 
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar ul a{
+    padding: 2px 2px;
+    text-decoration: none;
+    color: black;
+}
+.lef{
+    text-align: left;
+    font-size: 20px;
+}
+nav ul li a:hover{
+	color: #fdfdfd;
+}
+.emergency{
+    background-color: rgb(202, 12, 12);
+    
+    
+}
+.logo{
+    
+}
+
+/*Home page*/
+.whole{
+    background-image: url('img/bg.png');
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-attachment: fixed;
+    height: 700px;
+}
+.search{
+    color: rgb(224, 140, 179); 
+    height: 150px;
+    margin-top: 200px;
+    font-size: 28px;
+    margin-left: 400px;
+    padding: 25px;   
+}
+.search2{
+    padding: 15px;
+}
+.search2 input{
+    margin-left: 550px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.search input{
+    
+    font-size: 20px;
+}
+.lines{
+    background-color: rgba(24, 9, 9, 0.781);
+    margin: 100px;
+}
+.search2:hover{
+    color: burlywood;
+}
+
+
+/*About Us*/
+.whole2{
+    background-image: url('img/abt1.png');
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    height: 600px;
+}
+.head{
+    background-color: rgba(24, 9, 9, 0.781);
+    height: 80px;
+    text-align: center;
+    font-size: 30px;   
+}
+.head h1{
+    color: azure;
+}
+.grids{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.box{
+    height: 275px;
+	width: 50%;
+	padding: 20px 35px;
+	background: rgb(224, 140, 179); 
+	border-radius: 20px;
+	margin: 40px;
+	position: relative;
+	overflow: hidden;   
+	text-align: center;
+}
+.box h3{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    padding: 15px;
+}
+.box p{
+    color: whitesmoke;
+}
+
+/*FAQS*/
+.whole3{
+    background-image: url('img/bg4.jpeg');
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-attachment: fixed;
+    height: 700px;
+}
+.whole3 h2{
+    color: azure;
+    background-color: rgb(24, 9, 9);
+    padding: 14px;
+    height: 80px;
+    text-align: center;
+    font-size: 30px; 
+    width: 100%;   
+}
+
+.faqs{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 4vw;
+}
+
+details{
+    padding: 20px;
+    background-color: rgb(212, 139, 190);
+}
+.faqs img{
+    position: relative;
+    height: 457px;
+	width: 437px;
+    border-radius: 100%;
+    margin: 4%;
+    padding: 24px;
+}
+hr{
+    width: fit-content;
+}
+.box2{
+    border-radius: 10px;
+}
+
+/*Footer*/
+footer{
+	position: relative;
+	width: 100%;
+	height: 120px;
+	background: #350c0c;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #f9004d;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#f9004d;
+	bottom: 15px;
+	font-size: 14px; 
+}
+
+<style>
+        @media (min-width: 600px){
+            body{
+                background-color: red;
+            }
+        }
+        @media (max-width:599px) {
+            body{
+                background-color: green;
+            }
+            
+        }
+
+</style>
