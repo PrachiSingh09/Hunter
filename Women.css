@@ -5,7 +5,7 @@
 
 }
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("img/women.png");
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("women.png");
     height: 120vh;
     background-size: cover;
     background-position: center;
