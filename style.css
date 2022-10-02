@@ -64,7 +64,7 @@ nav ul li a:hover{
 
 /*Home page*/
 .whole{
-    background-image: url('img/bg.png');
+    background-image: url('bg.png');
     background-repeat: no-repeat;
     background-size: 2000px;
     background-attachment: fixed;
@@ -102,7 +102,7 @@ nav ul li a:hover{
 
 /*About Us*/
 .whole2{
-    background-image: url('img/abt1.png');
+    background-image: url('abt1.png');
     background-repeat: no-repeat;
     background-size: 1400px;
     height: 600px;
@@ -144,7 +144,7 @@ nav ul li a:hover{
 
 /*FAQS*/
 .whole3{
-    background-image: url('img/bg4.jpeg');
+    background-image: url('bg4.jpeg');
     background-repeat: no-repeat;
     background-size: 2000px;
     background-attachment: fixed;
